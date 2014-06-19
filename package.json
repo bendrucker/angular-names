@@ -1,0 +1,42 @@
+{
+  "name": "angular-names",
+  "version": "0.0.0",
+  "description": "Simple utilities for working with names in AngularJS",
+  "main": "src/module.js",
+  "scripts": {
+    "test": "karma start --single-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bendrucker/angular-names.git"
+  },
+  "keywords": [
+    "angular",
+    "names",
+    "validation",
+    "directive",
+    "filter"
+  ],
+  "author": "Ben Drucker <bvdrucker@gmail.com> (http://www.bendrucker.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bendrucker/angular-names/issues"
+  },
+  "homepage": "https://github.com/bendrucker/angular-names",
+  "devDependencies": {
+    "browserify": "~4.1.11",
+    "browserify-shim": "~3.5.0",
+    "chai": "~1.9.1",
+    "karma": "~0.12.16",
+    "karma-bro": "~0.5.0",
+    "karma-chai": "~0.1.0",
+    "karma-cli": "0.0.4",
+    "karma-mocha": "~0.1.4",
+    "karma-phantomjs-launcher": "~0.1.4",
+    "mocha": "~1.20.1",
+    "watchify": "~0.10.2"
+  },
+  "browserify-shim": {
+    "angular": "global:angular"
+  }
+}
