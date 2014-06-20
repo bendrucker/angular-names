@@ -1,6 +1,6 @@
 {
   "name": "angular-names",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Simple utilities for working with names in AngularJS",
   "main": "src/module.js",
   "scripts": {
@@ -35,6 +35,9 @@
     "karma-phantomjs-launcher": "~0.1.4",
     "mocha": "~1.20.1",
     "watchify": "~0.10.2"
+  },
+  "browserify": {
+    "transform": ["browserify-shim"]
   },
   "browserify-shim": {
     "angular": "global:angular"
