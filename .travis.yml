@@ -11,4 +11,5 @@ deploy:
     secure: QtUOyQebWq/9EqqFxi/kxC0v8PAfNXnyGhGgE7XvoS7jgUn92tXLoZxg128XjptCEy03+QYbEYLVhS+eaLeYbqwxFb46Jtiid0y8ReELOOo78JR4EAuY2MAjcIbAZv+hkQ9wKtwz21SGluGm90j5Y5nVASZ1egv1sbNAOv1i1io=
   on:
     tags: true
+    all_branches: true
     repo: bendrucker/angular-names
