@@ -1,6 +1,6 @@
 {
   "name": "angular-names",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Simple utilities for working with names in AngularJS",
   "main": "src/module.js",
   "scripts": {
@@ -35,7 +35,9 @@
     "mocha": "1"
   },
   "browserify": {
-    "transform": ["browserify-shim"]
+    "transform": [
+      "browserify-shim"
+    ]
   },
   "browserify-shim": {
     "angular": "global:angular"
