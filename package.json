@@ -2,7 +2,7 @@
   "name": "angular-names",
   "version": "1.0.1",
   "description": "Simple utilities for working with names in AngularJS",
-  "main": "src/module.js",
+  "main": "./src",
   "scripts": {
     "test": "karma start --single-run"
   },
