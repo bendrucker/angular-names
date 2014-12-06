@@ -27,6 +27,11 @@ describe('angular-names', function () {
       expect(controller.$error.fullName).to.be.true;
     });
 
+    it('is invalid if empty', function () {
+      scope.$digest();
+      expect(controller.$error.fullName).to.be.true;
+    });
+
   });
 
 });
