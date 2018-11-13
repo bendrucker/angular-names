@@ -1,4 +1,4 @@
-angular-names [![Build Status](https://travis-ci.org/bendrucker/angular-names.svg?branch=master)](https://travis-ci.org/bendrucker/angular-names)
+angular-names [![Build Status](https://travis-ci.org/bendrucker/angular-names.svg?branch=master)](https://travis-ci.org/bendrucker/angular-names) [![Greenkeeper badge](https://badges.greenkeeper.io/bendrucker/angular-names.svg)](https://greenkeeper.io/)
 =============
 
 ## Setup
